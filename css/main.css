@@ -371,7 +371,7 @@ ul.program-icon img {
     position: absolute;
     background: url(../image/imockup1.png) no-repeat 0 -113px;
     background-size: 624px;
-    z-index: 1;
+    z-index: 9;
     pointer-events: none
 }
 
