@@ -1,2 +1,6 @@
-# portfolio_0
-안녕하세요! 김세정 포트폴리오입니다. 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tpwjd123/portfolio-0.git
+git push -u origin main
