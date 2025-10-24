@@ -1,0 +1,57 @@
+header.gnb {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.438);
+    z-index: 999;
+    backdrop-filter: blur(5px);
+}
+
+.gnb div {
+    width: 100%;
+}
+
+h1.logo {
+    width: 30%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+}
+
+h1.logo>a>img {
+    width: 50px;
+}
+
+.logo span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+ul.nav {
+    gap: 36px;
+    width: 70%;
+}
+
+.nav li{
+    transition: all 5s ease;
+}
+
+ul.nav li a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+ul.nav li a:hover {
+    color: var(--light-purple);
+}
+
+h1 {
+    width: 100px;
+    height: 200px;
+}
