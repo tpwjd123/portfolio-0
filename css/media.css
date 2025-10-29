@@ -6,24 +6,37 @@
         display: none;
     }
 
+    /* .profile  */
     .profile .text {
         margin: 0;
     }
 
 
     .profile .text span {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     .profile .text h2 {
-        font-size: 3rem;
+        font-size: 3.6rem;
     }
 
+    .profile_img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile_img img {
+        width: 80%;
+        height: auto;
+    }
+
+
     .mainBtns {
-        flex-direction: column;
-        gap: 10px;
-        bottom: 10%;
-        transition: all 0.3s ease;
+        left: 20%;
+        bottom: 30%;
     }
 
     .mainBtns .btn {
@@ -31,34 +44,166 @@
         font-size: 1rem;
     }
 
-    .profile_img img{
-        width: 55%;
+/* marquee */
+    div.marquee-area {
+        margin: 80px 0 20px 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.intro-track {
+        font-size: 3rem;
+        gap: 30px;
+    }
+
+    /* about */
+    .about {
+        padding: 20px 0;
+    }
+
+    .about .about-box {
+        flex-direction: column;
+    }
+
+    .about-emoji {
+        margin-bottom: 10px;
+        width: 100%;
     }
 
     .about-emoji img {
-        max-width: 100%;
-        height: auto;
+        width: 50%;
+        display: flex;
+        align-items: center;
     }
 
+
+    .caption {
+        margin: 20px 0 30px 2.5rem;
+
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    div.caption h2 {
+        font-size: 1.6rem;
+    }
+
+    div.about-item {
+        font-size: 14px;
+        padding: 0 2.8rem;
+        line-height: 1.5rem;
+        row-gap: 1rem;
+    }
+
+    .keyword {
+        margin-top: 5px;
+        gap: 2px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
+    .about-personal .keyword li {
+        padding: 5px 5px;
+        width: 40px;
+        height: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .spanML {
+        margin-left: 0;
+    }
+
+    .about-education li {
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .about-education li,
+    .about-education div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul.program-icon img {
+        max-width: 45px;
+    }
+
+    /* keyword-marquee */
+
+    .keyword-marquee {
+        margin: 40px 0;
+        height: auto;
+        position: relative;
+        bottom: 10%;
+        margin-bottom: 15vw;
+    }
+
+    .top-banner,
+    .bottom-banner {
+        height: 45px;
+    }
+
+    .mb-20 {
+        margin-bottom: 10px;
+    }
+
+    /* portfolio */
+    .portfolio {
+        padding: 40px 0;
+    }
+
+    .port-box {
+        flex-direction: column;
+    }
 }
 
 
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1024px) {
-    section {
-        min-height: 0vh;
+    section.profile {
+        height: 80vh;
     }
 
-    .mainBtns {
-        flex-direction: column;
-        gap: 10px;
-        left: 70%;
+    .profile .text {
+        margin: 1rem;
     }
 
-    .about-emoji img {
-        max-width: 100%;
+
+    .profile .text span {
+        font-size: 3rem;
+    }
+
+    .profile .text h2 {
+        font-size: 5rem;
+    }
+
+    .profile_img img {
+        width: 80%;
         height: auto;
     }
+
+
+    .mainBtns {
+        left: 55%;
+        bottom: 30%;
+    }
+
+    .mainBtns .btn {
+        padding: 25px 45px;
+        font-size: 1rem;
+    }
+
+
+
+
 
 
 }
