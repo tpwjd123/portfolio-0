@@ -44,7 +44,7 @@
         font-size: 1rem;
     }
 
-/* marquee */
+    /* marquee */
     div.marquee-area {
         margin: 80px 0 20px 0;
         padding: 0;
@@ -163,6 +163,83 @@
     .port-box {
         flex-direction: column;
     }
+
+    .port-frame img {
+        position: static;
+    }
+
+    .port-txt {
+        width: 100%;
+    }
+
+
+    /* art */
+    .title{
+            margin-bottom: 4rem;
+    }
+
+    .art{
+        padding: 40px 0;
+    }
+    .port-card {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .card {
+        width: 90%;
+        height: 350px;
+    }
+
+    .cardBox .txt h3 {
+        font-size: 1.1rem;
+        margin-bottom: 4px;
+    }
+
+    .cardBox .txt p {
+        font-size: 12px;
+        line-height: 1rem;
+    }
+
+    .art-btn{
+       left: 18%;
+    }
+
+    /* skill */
+
+
+
+    .skill-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .skill-card {
+        width: 25%;
+    }
+
+    .skill-icon {
+        gap: 10px;
+        height: auto;
+    }
+
+    .skill-icon img {
+        max-width: 30px;
+    }
+
+    .skill-icon span {
+        font-size: 1.2rem;
+    }
+
+    .skill-bar span {
+        font-size: 12px;
+    }
+
 }
 
 
