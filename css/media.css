@@ -1,0 +1,67 @@
+/* 반응형 */
+
+/* 모바일 */
+@media (max-width: 767px) {
+    ul.nav {
+        display: none;
+    }
+
+    .profile .text {
+        margin: 0;
+    }
+
+
+    .profile .text span {
+        font-size: 1.6rem;
+    }
+
+    .profile .text h2 {
+        font-size: 3rem;
+    }
+
+    .mainBtns {
+        flex-direction: column;
+        gap: 10px;
+        bottom: 10%;
+        transition: all 0.3s ease;
+    }
+
+    .mainBtns .btn {
+        padding: 20px 40px;
+        font-size: 1rem;
+    }
+
+    .profile_img img{
+        width: 55%;
+    }
+
+    .about-emoji img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+
+/* 태블릿 */
+@media (min-width: 768px) and (max-width: 1024px) {
+    section {
+        min-height: 0vh;
+    }
+
+    .mainBtns {
+        flex-direction: column;
+        gap: 10px;
+        left: 70%;
+    }
+
+    .about-emoji img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+}
+
+/* 데스크탑 */
+@media (min-width: 1025px) {}
