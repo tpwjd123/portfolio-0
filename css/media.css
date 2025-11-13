@@ -171,7 +171,7 @@
         max-width: 100%;
         margin-bottom: 30px;
         position: relative;
-        
+        overflow: hidden;
     }
 
     .port-frame img {
@@ -182,9 +182,22 @@
 
     .port-txt {
         width: 100%;
-        padding: 0 20px;
+        box-sizing: border-box;
         position: relative;
+        padding: 10px;
     }
+
+    .hidden{
+        width: 100%;
+        top: 10%;
+    }
+
+    .hidden img{
+        width: 99%;
+    }
+
+
+
 
     /* art */
 
@@ -209,13 +222,22 @@
         height: 350px;
     }
 
+    .cardBox img{
+        height: auto;
+    }
+
+    .cardBox .txt{
+        margin-top: 3px;
+        height: auto;
+    }
+
     .cardBox .txt h3 {
         font-size: 1.1rem;
         margin-bottom: 4px;
     }
 
     .cardBox .txt p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1rem;
     }
 

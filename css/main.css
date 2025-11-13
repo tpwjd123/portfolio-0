@@ -225,11 +225,12 @@ ul.program-icon img {
 }
 
 .port-frame {
-    max-width: 683px;
+    max-width: 685px;
     position: relative;
     width: 100%;
     transform: translateX(0px);
     transition: 0.5s;
+  
 }
 
 .port-frame img {
@@ -244,7 +245,7 @@ ul.program-icon img {
 }
 
 .hidden {
-    width: 677px;
+    width: 100%;
     height: 377px;
     position: absolute;
     display: block;
@@ -252,6 +253,12 @@ ul.program-icon img {
     top: 47px;
     left: 3px;
 }
+
+.hidden img {
+    width: 99%;
+    height: auto;
+}
+
 
 .hidden img:hover {
     transform: translate(0, -1270px);
