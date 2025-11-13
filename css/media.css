@@ -188,21 +188,41 @@
         padding: 10px;
     }
 
-    .hidden{
+    .hidden {
         width: 100%;
         top: 10%;
     }
 
-    .hidden img{
+    .hidden img {
         width: 99%;
     }
 
-    .port-Mock{
+    .port-Mock {
         width: 100%;
+        left: -10%;
     }
 
-    .crop{
+    .crop {
         position: relative;
+    }
+
+    .port-btn {
+        margin-top: 0;
+
+    }
+    
+
+    .port-guid {
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+        left: 5%;
+        margin-top: 100px;
+    }
+
+
+    .port-guid span {
+        font-size: 14px;
     }
 
 
@@ -230,11 +250,11 @@
         height: 350px;
     }
 
-    .cardBox img{
+    .cardBox img {
         height: auto;
     }
 
-    .cardBox .txt{
+    .cardBox .txt {
         margin-top: 3px;
         height: auto;
     }
