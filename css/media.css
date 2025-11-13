@@ -180,6 +180,7 @@
         left: auto;
     }
 
+
     .port-txt {
         width: 100%;
         box-sizing: border-box;
@@ -196,6 +197,13 @@
         width: 99%;
     }
 
+    .port-Mock{
+        width: 100%;
+    }
+
+    .crop{
+        position: relative;
+    }
 
 
 
