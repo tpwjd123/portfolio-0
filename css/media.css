@@ -6,18 +6,30 @@
         display: none;
     }
 
-    /* .profile  */
+    h1.logo>a>img {
+        width: 8vw;
+    }
 
+    .logo span {
+        font-size: 2vw;
+    }
+
+    .pd-20-0 {
+        padding: 0;
+    }
+
+    /* .profile  */
     .profile .text {
-        margin: 0;
+        margin: 1rem;
     }
 
     .profile .text span {
-        font-size: 2rem;
+        font-size: 5vw;
     }
 
     .profile .text h2 {
-        font-size: 3.6rem;
+        margin: 1rem 0 0 0;
+        font-size: 10vw;
     }
 
     .profile_img {
@@ -29,18 +41,18 @@
     }
 
     .profile_img img {
-        width: 80%;
+        width: 56%;
         height: auto;
     }
 
     .mainBtns {
-        left: 20%;
-        bottom: 30%;
+        position: relative;
+        left: 26%;
     }
 
     .mainBtns .btn {
-        padding: 20px 40px;
-        font-size: 1rem;
+        padding: 3vw 6vw;
+        font-size: 2.4vw;
     }
 
     /* marquee */
@@ -54,7 +66,7 @@
     }
 
     div.intro-track {
-        font-size: 3rem;
+        font-size: 9.6vw;
         gap: 30px;
     }
 
@@ -73,14 +85,14 @@
     }
 
     .about-emoji img {
-        width: 50%;
+        width: 47%;
         display: flex;
         align-items: center;
     }
 
     .caption {
         margin: 20px 0 30px 2.5rem;
-
+        line-height: 2rem;
     }
 
     .about-text {
@@ -88,13 +100,14 @@
     }
 
     div.caption h2 {
-        font-size: 1.6rem;
+        font-size: 4vw;
+        font-weight: 500;
     }
 
     div.about-item {
-        font-size: 14px;
+        font-size: 2vw;
         padding: 0 2.8rem;
-        line-height: 1.5rem;
+        line-height: 1.2rem;
         row-gap: 1rem;
     }
 
@@ -107,22 +120,27 @@
     }
 
     .about-personal .keyword li {
-        padding: 5px 5px;
-        width: 40px;
-        height: 10px;
+        padding: 1vw 1vw;
+        width: 8vw;
+        height: 2vw;
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction: row;
+        font-size: 2vw;
     }
 
     .spanML {
         margin-left: 0;
     }
 
+    .about h3 {
+        font-size: 2.6vw;
+    }
+
     .about-education li {
-        line-height: 1.2rem;
-        margin-bottom: 10px;
+        line-height: 1rem;
+        margin-bottom: 4px;
     }
 
     .about-education li,
@@ -132,8 +150,10 @@
     }
 
     ul.program-icon img {
-        max-width: 45px;
+        width: 6vw;
     }
+
+
 
     /* keyword-marquee */
 
@@ -164,12 +184,13 @@
         align-items: center;
         flex-direction: column;
         height: auto;
+        margin: 40px 0 20px;
     }
 
     .port-frame {
         width: 100%;
         max-width: 100%;
-        margin-bottom: 30px;
+        margin: 50px 0 30px 0;
         position: relative;
         overflow: hidden;
     }
@@ -178,6 +199,34 @@
         position: relative;
         top: auto;
         left: auto;
+    }
+
+    .titleBox .tit {
+        font-size: 5vw;
+    }
+
+    .titleBox .tit em {
+        font-size: 5vw;
+    }
+
+    .titleBox span {
+        font-size: 3vw;
+    }
+
+    .titleBox span::before {
+        top: 90px;
+    }
+
+    .inpo {
+        margin: 20px 0;
+    }
+
+    .inpo li p {
+        font-size: 3vw;
+    }
+
+    .inpo li {
+        font-size: 2.6vw;
     }
 
 
@@ -197,32 +246,56 @@
         width: 99%;
     }
 
+    .hidden.pj1 img:hover {
+        transform: translate(0, -1460px);
+        transition: all 3s ease;
+    }
+
+    .hidden.pj3 img:hover {
+        transform: translate(0, -890px);
+        transition: all 2s ease;
+    }
+
     .port-Mock {
         width: 100%;
         left: -10%;
+        height: 43rem;
+    }
+
+    .port-Mock::before {
+        transform: scale(.72);
     }
 
     .crop {
         position: relative;
+        left: 94px;
+        top: -88px;
+        transform: scale(.72);
+
     }
 
     .port-btn {
-        margin-top: 0;
-
+        margin-top: 5vw;
     }
-    
+
+
+    .port-btn .btn {
+        padding: 3vw 8vw;
+        font-size: 2.4vw;
+    }
+
 
     .port-guid {
-        width: 120px;
-        height: 120px;
+        width: 6rem;
+        height: 6rem;
         margin-left: 0;
         left: 5%;
-        margin-top: 100px;
     }
 
 
     .port-guid span {
-        font-size: 14px;
+        font-size: 2.4vw;
+        top: 40px;
     }
 
 
@@ -230,7 +303,8 @@
     /* art */
 
     .title {
-        margin-bottom: 4rem;
+        margin-bottom: 10vw;
+        font-size: 9vw;
     }
 
     .art {
@@ -255,52 +329,67 @@
     }
 
     .cardBox .txt {
-        margin-top: 3px;
+        margin-top: 10px;
         height: auto;
     }
 
     .cardBox .txt h3 {
-        font-size: 1.1rem;
+        font-size: 3vw;
         margin-bottom: 4px;
     }
 
     .cardBox .txt p {
-        font-size: 14px;
-        line-height: 1rem;
+        font-size: 2.6vw;
+        line-height: 1.3rem;
     }
 
     .art-btn {
-        left: 18%;
+        left: 20%;
+    }
+
+    .art-btn .btn {
+        padding: 3vw 8vw;
+        font-size: 2.4vw;
     }
 
     /* skill */
+    .skills {
+        padding: 40px 0;
+    }
 
     .skill-wrap {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 12px;
     }
-
 
     .skill-card {
         width: 25%;
+        padding: 20px;
     }
 
     .skill-icon {
         gap: 10px;
         height: auto;
+        margin-bottom: 10px;
     }
 
     .skill-icon img {
-        max-width: 30px;
+        max-width: 4vw;
     }
 
     .skill-icon span {
-        font-size: 1.2rem;
+        font-size: 2.4vw;
+        font-weight: 600;
     }
 
     .skill-bar span {
-        font-size: 12px;
+        font-size: 1.8vw;
+    }
+
+    .progress-bar {
+        margin-bottom: 4px;
     }
 
     /* footer */
@@ -309,23 +398,30 @@
         margin-top: 40px;
     }
 
+    .contactBox {
+        height: 40vw;
+        margin: 1.3rem 0 0 0;
+    }
+
     .foot-back {
         height: auto;
     }
 
     .foot_title {
-        font-size: 3rem;
-        margin: 0 0 50px;
-
+        font-size: 9vw;
+        margin: 0 0 2.4rem;
+        padding: 0;
     }
 
     .contact-left .point {
-        font-size: 1.4rem;
+        font-size: 3vw;
     }
 
     .contact-left span {
-        font-size: 1.2rem;
+        font-size: 3vw;
     }
+
+
 
     .contact-right {
         align-items: flex-start;
@@ -333,12 +429,13 @@
 
     .contact-right span {
         margin: 10px;
-        font-size: 1.2rem;
+        font-size: 3vw;
     }
 
-
     .foot-btn .btn {
-        padding: 20px 25px;
+        padding: 3vw 6vw;
+        font-size: 2.4vw;
+        margin-right: 5px;
     }
 }
 

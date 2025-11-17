@@ -186,7 +186,7 @@ div.marquee-area {
 
 .about-item span {
     margin-right: 0.4rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -260,10 +260,14 @@ ul.program-icon img {
 }
 
 
-.hidden img:hover {
-    transform: translate(0, -1270px);
+.hidden.pj1 img:hover {
+    transform: translate(0, -2070px);
     transition: all 5s ease;
+}
 
+.hidden.pj3 img:hover {
+    transform: translate(0, -1270px);
+    transition: all 4s ease;
 }
 
 .port-txt {
@@ -312,7 +316,7 @@ ul.program-icon img {
 
 .bold {
     margin-right: 10px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .port-btn {
@@ -399,7 +403,6 @@ ul.program-icon img {
     overflow: hidden;
 }
 
-
 .subway {
     display: block;
     width: 100%;
@@ -412,7 +415,6 @@ ul.program-icon img {
     border-radius: 10%;
 }
 
-
 .figma {
     height: 100vh;
     width: 100%;
@@ -422,7 +424,7 @@ ul.program-icon img {
     width: 50%;
 }
 
-
+/* art */
 .art {
     padding: 100px 0;
 }
