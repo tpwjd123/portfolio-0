@@ -1,5 +1,5 @@
 .btn {
-    padding: 20px 45px;
+    padding: 1.57rem 2.82rem;
     background: linear-gradient(135deg, #8B5CF6, #06B6D4);
     box-shadow: 0 20px 60px rgba(139, 92, 246, 0.3);
     margin-right: 10px;
@@ -13,7 +13,6 @@
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(139, 92, 246, 0.3);
 }
-
 
 /* profile */
 
@@ -79,7 +78,6 @@ div.marquee-area {
     position: relative;
 }
 
-
 .intro-track {
     width: 100%;
     display: flex;
@@ -116,7 +114,7 @@ div.marquee-area {
 
 .about {
     width: 100%;
-    padding: 100px 0;
+    padding: 6.3rem 0;
 }
 
 .about-emoji {
@@ -131,11 +129,9 @@ div.marquee-area {
     width: 65%;
 }
 
-
 .about-emoji img {
-    width: 100%;
+    width: 80%;
     object-fit: cover;
-
 }
 
 .caption {
@@ -145,7 +141,6 @@ div.marquee-area {
 
 .caption h2 {
     font-size: 2rem;
-
 }
 
 .about h3 {
@@ -158,14 +153,11 @@ div.marquee-area {
     gap: 6px;
 }
 
-
-
 .about-personal .keyword li {
     border: 1px solid rgb(197, 197, 197);
     border-radius: 20px;
     padding: 5px 14px;
 }
-
 
 .about-item {
     display: flex;
@@ -175,7 +167,6 @@ div.marquee-area {
     justify-content: center;
     line-height: 2rem;
     font-size: 1.1rem;
-
 }
 
 .about-item>div {
@@ -189,7 +180,6 @@ div.marquee-area {
     font-weight: 600;
 }
 
-
 .spanML {
     display: inline-block;
     margin-left: 6.2rem;
@@ -200,7 +190,6 @@ ul.program-icon {
     flex-wrap: wrap;
 }
 
-
 ul.program-icon img {
     max-width: 50px;
     width: 100%;
@@ -208,14 +197,11 @@ ul.program-icon img {
     object-fit: contain;
 }
 
-
 /* portfolio */
 .portfolio {
     width: 100%;
     padding: 100px 0;
 }
-
-
 
 .port-box {
     width: 100%;
@@ -230,7 +216,6 @@ ul.program-icon img {
     width: 100%;
     transform: translateX(0px);
     transition: 0.5s;
-  
 }
 
 .port-frame img {
@@ -259,7 +244,6 @@ ul.program-icon img {
     height: auto;
 }
 
-
 .hidden.pj1 img:hover {
     transform: translate(0, -2070px);
     transition: all 5s ease;
@@ -274,7 +258,6 @@ ul.program-icon img {
     width: 35%;
     position: relative;
 }
-
 
 .titleBox {
     text-align: left;
@@ -307,7 +290,6 @@ ul.program-icon img {
     line-height: 1.5em;
 }
 
-
 .inpo p {
     font-weight: 400;
     line-height: 26px;
@@ -323,7 +305,6 @@ ul.program-icon img {
     margin-top: 50px;
 }
 
-
 /* figma-mockup */
 .port-guid {
     transform: rotate(348deg);
@@ -338,16 +319,13 @@ ul.program-icon img {
     animation: motion 0.3s linear 0s infinite alternate;
 }
 
-
 @keyframes motion {
     0% {
         margin-top: 0px;
     }
-
     50% {
         margin-top: 5px;
     }
-
     100% {
         margin-top: 10px;
     }
@@ -369,7 +347,6 @@ ul.program-icon img {
     overflow: hidden;
     z-index: 2;
 }
-
 
 .port-Mock::before {
     content: "";
@@ -452,7 +429,6 @@ ul.program-icon img {
     box-sizing: border-box;
     position: relative;
     z-index: -1;
-
 }
 
 .cardBox img {
@@ -512,7 +488,6 @@ ul.program-icon img {
     display: flex;
     gap: 2vw;
     transition: transform 0.4s ease;
-
 }
 
 .art-btn .btn {
@@ -525,7 +500,6 @@ ul.program-icon img {
     z-index: 1;
     opacity: 1;
     transform: translateX(0);
-
 }
 
 /* keyword marquee */
@@ -534,7 +508,6 @@ ul.program-icon img {
     height: 200px;
     margin: 0 0 50px 0;
     align-items: center;
-
 }
 
 .top-banner {
@@ -560,12 +533,10 @@ ul.program-icon img {
     animation: bannerLeft 25s linear infinite;
 }
 
-
 @keyframes bannerLeft {
     0% {
         transform: translateX(0);
     }
-
     100% {
         transform: translateX(50%);
     }
@@ -582,7 +553,6 @@ ul.program-icon img {
     width: 100%;
     height: 70px;
     background: linear-gradient(135deg, #8B5CF6, #06B6D4);
-
 }
 
 .track-R {
@@ -591,7 +561,6 @@ ul.program-icon img {
     gap: 40px;
     white-space: nowrap;
     animation: bannerRight 25s linear infinite;
-
 }
 
 
@@ -599,12 +568,10 @@ ul.program-icon img {
     0% {
         transform: translateX(0);
     }
-
     100% {
         transform: translateX(-50%);
     }
 }
-
 
 /* skills */
 
@@ -612,8 +579,6 @@ ul.program-icon img {
     padding: 100px 0;
     background: white;
 }
-
-
 
 .skill-wrap {
     display: grid;

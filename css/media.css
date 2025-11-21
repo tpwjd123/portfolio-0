@@ -153,8 +153,6 @@
         width: 6vw;
     }
 
-
-
     /* keyword-marquee */
 
     .keyword-marquee {
@@ -185,6 +183,13 @@
         flex-direction: column;
         height: auto;
         margin: 40px 0 20px;
+    }
+
+    .port-box.mt {
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin: 40px 0 30px;
     }
 
     .port-frame {
@@ -229,7 +234,6 @@
         font-size: 2.6vw;
     }
 
-
     .port-txt {
         width: 100%;
         box-sizing: border-box;
@@ -248,12 +252,12 @@
 
     .hidden.pj1 img:hover {
         transform: translate(0, -1460px);
-        transition: all 3s ease;
+        transition: all 4s ease;
     }
 
     .hidden.pj3 img:hover {
         transform: translate(0, -890px);
-        transition: all 2s ease;
+        transition: all 4s ease;
     }
 
     .port-Mock {
@@ -271,7 +275,6 @@
         left: 94px;
         top: -88px;
         transform: scale(.72);
-
     }
 
     .port-btn {
@@ -284,7 +287,6 @@
         font-size: 2.4vw;
     }
 
-
     .port-guid {
         width: 6rem;
         height: 6rem;
@@ -292,13 +294,10 @@
         left: 5%;
     }
 
-
     .port-guid span {
         font-size: 2.4vw;
         top: 40px;
     }
-
-
 
     /* art */
 
@@ -421,8 +420,6 @@
         font-size: 3vw;
     }
 
-
-
     .contact-right {
         align-items: flex-start;
     }
@@ -439,9 +436,12 @@
     }
 }
 
-
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1024px) {
+    ul.nav {
+        gap: 1.6rem;
+    }
+
     section.profile {
         height: 80vh;
     }
@@ -449,7 +449,6 @@
     .profile .text {
         margin: 1rem;
     }
-
 
     .profile .text span {
         font-size: 3rem;
@@ -464,7 +463,6 @@
         height: auto;
     }
 
-
     .mainBtns {
         left: 55%;
         bottom: 30%;
@@ -475,12 +473,376 @@
         font-size: 1rem;
     }
 
+    /* about */
+
+    .about {
+        padding: 20px 0;
+    }
+
+    .about .about-box {
+        flex-direction: column;
+    }
+
+    .about-emoji {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .about-emoji img {
+        width: 35%;
+        display: flex;
+        align-items: center;
+    }
+
+    .caption {
+        margin: 20px 0 30px 2.5rem;
+        line-height: 2rem;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    div.caption h2 {
+        font-size: 3.6vw;
+
+    }
+
+    div.about-item {
+        font-size: 1.8vw;
+        padding: 0 2.8rem;
+        line-height: 2rem;
+        row-gap: 1rem;
+    }
+
+    .keyword {
+        margin-top: 5px;
+        gap: 2px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
+    .about-personal .keyword li {
+        padding: 1vw 1vw;
+        width: 8vw;
+        height: 2vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        font-size: 2vw;
+    }
+
+    .spanML {
+        margin-left: 0;
+    }
+
+    .about h3 {
+        font-size: 2vw;
+    }
+
+    .about-education li {
+        line-height: 1rem;
+        margin-bottom: 10px;
+    }
 
 
+    .about-education li,
+    .about-education div {
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 1.5rem;
+    }
 
+    ul.program-icon img {
+        width: 88%;
+    }
 
+    .mb-20 {
+        margin-bottom: 10px
+    }
+    /* marquee */
+    .bottom-banner{
+        bottom: 40px;
+    }
+
+    /* portfolio */
+
+    .port-box {
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin: 40px 0 20px;
+    }
+
+    .port-box.mt {
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin: 40px 0 30px;
+    }
+
+    .port-frame {
+        width: 100%;
+        margin: 0 0 30px 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .port-frame img {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    .port-txt {
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        padding: 10px 100px 100px 100px;
+    }
+
+    .titleBox .tit {
+        font-size: 3.2vw;
+    }
+
+    .titleBox .tit em {
+        font-size: 5.6vw;
+        margin-left: 300px;
+    }
+
+    .portfolio {
+        padding: 40px 0;
+    }
+
+    .titleBox span {
+        font-size: 2vw;
+    }
+
+    .titleBox span::before {
+        top: 130px;
+        width: 80%;
+    }
+
+    .inpo {
+        margin: 40px 0;
+    }
+
+    .inpo li p {
+        font-size: 2.2vw;
+        margin-bottom: 2rem;
+    }
+
+    .inpo li {
+        font-size: 1.8vw;
+        line-height: 1.6rem;
+    }
+
+    .hidden {
+        width: 100%;
+        top: 10%;
+    }
+
+    .hidden img {
+        width: 99%;
+    }
+
+    .hidden.pj1 img:hover {
+        transform: translate(0, -1460px);
+        transition: all 4s ease;
+    }
+
+    .hidden.pj3 img:hover {
+        transform: translate(0, -890px);
+        transition: all 4s ease;
+    }
+
+    .port-Mock {
+        width: 70%;
+        height: 43rem;
+    }
+
+    .port-Mock::before {
+        transform: scale(.72);
+    }
+
+    .crop {
+        position: relative;
+        left: 120px;
+        transform: scale(.72);
+    }
+
+    .port-btn {
+        margin-top: 6vw;
+    }
+
+    .port-btn .btn {
+        padding: 2vw 6vw;
+        font-size: 1.8vw;
+    }
+
+    .port-guid {
+        width: 7rem;
+        height: 7rem;
+        left: 32%;
+    }
+
+    .port-guid span {
+        font-size: 1rem;
+        top: 40px;
+    }
+
+    /* art */
+
+    .port-card {
+        gap: 2.4vw;
+        padding: 30px;
+    }
+
+    .card {
+        width: 90%;
+        height: 400px;
+    }
+
+    .cardBox .txt {
+        height: 160px;
+        padding-bottom: 10px;
+    }
+
+    .cardBox .txt h3 {
+        font-size: 1.4rem;
+    }
+
+    .cardBox img {
+        height: 280px;
+    }
+
+    .art-btn{
+        left: 16%;
+    }
+
+    /* skill */
+    .skills {
+        padding: 40px 0;
+    }
+
+    .skill-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .skill-card {
+        width: 25%;
+        padding: 20px;
+    }
+
+    .skill-icon {
+        gap: 10px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .skill-icon img {
+        max-width: 4vw;
+    }
+
+    .skill-icon span {
+        font-size: 1.8vw;
+
+    }
+
+    .skill-bar span {
+        font-size: 1.5vw;
+    }
+
+    .progress-bar {
+        margin-bottom: 12px;
+    }
+
+    /* footer */
+
+    footer {
+        margin-top: 40px;
+    }
+
+    .contactBox {
+        height: 30vw;
+        margin: 1.3rem 0 0 0;
+    }
+
+    .foot-back {
+        height: auto;
+    }
+
+    .foot_title {
+        font-size: 8vw;
+        margin: 0 0 2rem;
+        padding: 0;
+    }
+
+    .contact-left .point {
+        font-size: 2.6vw;
+    }
+
+    .contact-left span {
+        font-size: 2.6vw;
+    }
+
+    .contact-right span {
+        margin: 10px;
+        font-size: 2.6vw;
+    }
+
+    .foot-btn .btn {
+        padding: 2.6vw 5.5vw;
+        font-size: 2vw;
+        margin-right: 10px;
+    }
 
 }
 
 /* 데스크탑 */
-@media (min-width: 1025px) {}
+@media (min-width: 1025px) and (max-width: 1394px) {
+    body {
+        font-size: 16px;
+    }
+
+    .port-btn .btn {
+        padding: 2vw 2.6vw;
+        margin-right: 0;
+    }
+
+    .titleBox .tit {
+        font-size: 1.8rem;
+    }
+
+    .titleBox .tit em {
+        font-size: 1.8rem;
+        margin-left: 1.8rem;
+    }
+
+    .port-frame {
+        width: 60%;
+    }
+
+    .port-txt {
+        width: 32%;
+    }
+
+    .port-guid {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .hidden {
+        height: 341px;
+        top: 40px;
+    }
+
+    .foot-back {
+        height: auto;
+    }
+}
