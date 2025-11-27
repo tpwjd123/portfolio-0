@@ -6,8 +6,10 @@
         display: none;
     }
 
-    h1.logo>a>img {
-        width: 8vw;
+    #lottie {
+        margin-left: 1rem;
+        width: 10vw;
+        height: 4vh;
     }
 
     .logo span {
@@ -212,6 +214,7 @@
 
     .titleBox .tit em {
         font-size: 5vw;
+        margin-left: 200px;
     }
 
     .titleBox span {
@@ -562,8 +565,9 @@
     .mb-20 {
         margin-bottom: 10px
     }
+
     /* marquee */
-    .bottom-banner{
+    .bottom-banner {
         bottom: 40px;
     }
 
@@ -584,7 +588,7 @@
     }
 
     .port-frame {
-        width: 100%;
+        width: 70%;
         margin: 0 0 30px 0;
         position: relative;
         overflow: hidden;
@@ -649,12 +653,12 @@
     }
 
     .hidden.pj1 img:hover {
-        transform: translate(0, -1460px);
+        transform: translate(0, -1750px);
         transition: all 4s ease;
     }
 
     .hidden.pj3 img:hover {
-        transform: translate(0, -890px);
+        transform: translate(0, -1080px);
         transition: all 4s ease;
     }
 
@@ -669,7 +673,7 @@
 
     .crop {
         position: relative;
-        left: 120px;
+        left: 7rem;
         transform: scale(.72);
     }
 
@@ -718,8 +722,14 @@
         height: 280px;
     }
 
-    .art-btn{
+    .art-btn {
         left: 16%;
+    }
+
+    .art-btn .btn {
+        padding: 1.4rem 1.82rem;
+        font-size: 0.9rem;
+
     }
 
     /* skill */

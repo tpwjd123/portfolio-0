@@ -17,8 +17,9 @@ h1.logo {
     gap: 1.2rem;
 }
 
-h1.logo>a>img {
-    width: 3rem;
+#lottie {
+    width: 10vw;
+    height: 7vh;
 }
 
 .logo span {
@@ -33,7 +34,7 @@ ul.nav {
     width: 70%;
 }
 
-.nav li{
+.nav li {
     transition: all 5s ease;
 }
 
