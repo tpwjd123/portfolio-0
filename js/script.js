@@ -182,7 +182,7 @@ bodymovin.loadAnimation({
     renderer: 'svg', // 렌더링 방식 (svg / canvas / html 중 선택)
     loop: true, // 애니메이션 반복 여부
     autoplay: true, // 자동 재생 여부
-    path: '../image/Plane.json', // 애니메이션 파일 경로
+    path: 'image/Plane.json', // 애니메이션 파일 경로
 });
 
 
