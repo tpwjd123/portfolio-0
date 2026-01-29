@@ -294,12 +294,12 @@
         width: 6rem;
         height: 6rem;
         margin-left: 0;
-        left: 5%;
+        left: 10%;
     }
 
     .port-guid span {
         font-size: 2.4vw;
-        top: 40px;
+        top: 20px;
     }
 
     /* art */
@@ -694,7 +694,7 @@
 
     .port-guid span {
         font-size: 1rem;
-        top: 40px;
+        top: 30px;
     }
 
     /* art */

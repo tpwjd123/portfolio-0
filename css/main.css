@@ -332,9 +332,9 @@ ul.program-icon img {
 .port-guid {
     transform: rotate(348deg);
     margin-left: 240px;
-    width: 150px;
-    height: 150px;
-    background: #d4e09d;
+    width: 130px;
+    height: 130px;
+    background: #a78bfa80;
     border-radius: 50%;
     position: absolute;
     left: 26%;
@@ -357,12 +357,14 @@ ul.program-icon img {
 }
 
 .port-guid span {
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
+    line-height: 1.45rem;
     color: #fff;
     position: absolute;
-    top: 53px;
-    left: 6px;
+    top: 40px;
+    left: 10px;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .port-Mock {
