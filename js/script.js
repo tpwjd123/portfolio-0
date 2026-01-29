@@ -192,7 +192,7 @@ const $text = document.querySelector(".typing");
 // 글자 모음
 const letters = [
   "도전하는 코더",
-  "도전하는 퍼블리셔", 
+  "성장하는 퍼블리셔", 
   "생각하는 디자이너", 
   "대표님 내일 뵙겠습니다."
 ];
