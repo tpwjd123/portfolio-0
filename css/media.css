@@ -259,7 +259,7 @@
     }
 
     .hidden.pj3 img:hover {
-        transform: translate(0, -890px);
+        transform: translate(0, -1065px);
         transition: all 4s ease;
     }
 
@@ -653,12 +653,12 @@
     }
 
     .hidden.pj1 img:hover {
-        transform: translate(0, -1750px);
+        transform: translate(0, -2020px);
         transition: all 4s ease;
     }
 
     .hidden.pj3 img:hover {
-        transform: translate(0, -1080px);
+        transform: translate(0, -1470px);
         transition: all 4s ease;
     }
 
